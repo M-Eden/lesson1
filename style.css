@@ -1,0 +1,84 @@
+*[
+margin:0;
+padding:0;
+border:0;
+font-size:0;
+]
+
+body {
+	background-image: url(win8.jpg);
+	background-position: center center;	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+.container {
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 3000px;
+	height: 500px;
+	/*background: yellow;*/
+
+	}
+
+.gruppa_plitok {
+	display: inline-block;
+	vertical-align: top;
+	/*background: red;*/
+	margin-right: 50px;
+	width: 550px;
+	height: 500px;
+}
+
+.plitka {
+	
+	width: 120px;
+	height: 120px;
+	background: lime;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+.plitka_wirokaya {
+	
+	width: 250px;
+	height: 120px;
+	background: lime;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+.plitka_ie {
+	background-image: url(ie.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: cyan;
+
+}
+ 
+.plitka_iee {
+	background-image: url(ie.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 80px 80px;
+	background-color: cyan;
+
+}
+
+.ie_text {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	top: 8px;
+
+}
